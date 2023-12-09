@@ -1,0 +1,72 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.gbolade {
+    text-align: center;
+    color: white;
+    height: 50px;
+
+}
+.profile-img {
+    height: 200px;
+    border-radius: 50%; 
+}
+.gradient-background{
+    background: black;
+    background-size: 180% 180%;
+  }
+.names{
+    color: white;
+    margin-left: 70px;
+}
+.profiles-img{
+    float: right;
+    height: 150px;
+    margin-right: 50px;
+    width: 500px;
+}
+
+.image-grid{
+  max-width: 1200px;
+  margin: auto;
+  overflow: auto;
+}
+.first{
+    margin: 5px;
+    border: 1px solid black;
+    float: right;
+    width: 390px;
+}
+.first img{
+    width: 100%;
+    height: auto;
+
+}
+.adex{
+    float: right;
+    border-radius: 50px;
+    background-color: gray;
+    width: 50%;
+}
+.adex:hover{
+    color: grey;
+    background-color: skyblue;
+}
+.ade{
+    border-radius: 50px;
+    background-color: gray;
+    width: 50%;   
+}
+.bname{
+    color: white;
+}
+.bnmame:hover{
+    color: grey;
+    background-color: skyblue;
+}
